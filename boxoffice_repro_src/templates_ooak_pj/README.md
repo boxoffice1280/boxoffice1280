@@ -79,8 +79,8 @@ which is exactly what the unchanged runtime reads.
 
 The per-seed datasets are large (about 595 MB for the 16 files) and are
 **not** in this repository. They are hosted in the same Hugging Face dataset
-as the main BoxOffice release, `Boxoffice1280/boxoffice1280`, in a dedicated
-folder for the two templates — **see the dataset card** for the exact path.
+as the main BoxOffice release, `Boxoffice1280/boxoffice1280`, in the
+folders `templates/ooak/` and `templates/pj/` (each with `seeds/`, `manifests/`, `validation/`) — see the dataset card.
 
 Files (per template `<tpl>` in `{ooak, pj}` and seed `<s>` in `{7, 11, 13, 17}`):
 

@@ -22,8 +22,8 @@ warm-retrieval metadata and filter runner of `boxoffice_repro_src/`.
 
 The per-seed datasets (`{ooak,pj}_filtered_v4_balanced_m4_s{7,11,13,17}_{full,eval}.jsonl`,
 about 595 MB) are distributed with the BoxOffice dataset release on Hugging
-Face (`Boxoffice1280/boxoffice1280`, in a dedicated folder for the two
-templates; see the dataset card) rather than in this repository.
+Face (`Boxoffice1280/boxoffice1280`, under `templates/ooak/seeds/` and `templates/pj/seeds/`,
+with manifests and validation counts alongside; see the dataset card) rather than in this repository.
 
 Quick start (after placing the datasets under `boxoffice_repro_src/templates_ooak_pj/seeds/`):
 
