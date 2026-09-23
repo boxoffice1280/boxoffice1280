@@ -1,0 +1,144 @@
+{
+  "balanced_variant_eval_unique_chunks": 76,
+  "balanced_variant_exact_direction_count_histogram": {
+    "10/14": 1,
+    "10/6": 1,
+    "13/10": 1,
+    "13/14": 1,
+    "15/20": 1,
+    "2/7": 2,
+    "3/10": 1,
+    "3/12": 1,
+    "3/4": 3,
+    "3/5": 1,
+    "3/6": 2,
+    "3/7": 1,
+    "4/10": 1,
+    "4/4": 2,
+    "4/5": 4,
+    "4/6": 3,
+    "4/7": 2,
+    "4/8": 1,
+    "5/10": 2,
+    "5/13": 1,
+    "5/17": 1,
+    "5/2": 1,
+    "5/3": 1,
+    "5/4": 6,
+    "5/5": 2,
+    "5/6": 3,
+    "5/7": 1,
+    "5/9": 1,
+    "6/10": 1,
+    "6/12": 1,
+    "6/14": 1,
+    "6/4": 1,
+    "6/5": 2,
+    "6/6": 2,
+    "6/8": 3,
+    "6/9": 1,
+    "7/12": 1,
+    "7/13": 1,
+    "7/2": 1,
+    "7/20": 1,
+    "7/4": 1,
+    "7/5": 2,
+    "7/6": 3,
+    "7/7": 1,
+    "8/12": 1,
+    "8/14": 1,
+    "8/16": 1,
+    "8/7": 1,
+    "9/7": 1
+  },
+  "balanced_variant_requirement": {
+    "<": 2,
+    ">": 2
+  },
+  "balanced_variant_warmup_rows_added": 99,
+  "balanced_variant_warmup_rows_original": 82,
+  "canonical_corpus": "<BOXOFFICE_BUNDLE_ROOT>/corpus/canonical_corpus_100_chunks.jsonl",
+  "cell_counts": {
+    "<<": 40,
+    "<>": 40,
+    "><": 40,
+    ">>": 40
+  },
+  "conditioning_semantics": "genre_mate_presence",
+  "dataset": "ooak_filtered_v4_balanced_m4",
+  "duplicate_layout": [
+    5,
+    4
+  ],
+  "eval_per_cell": 40,
+  "eval_rows": 160,
+  "eval_singleton_label_histogram": {
+    "Action": 67,
+    "Adventure": 46,
+    "Comedy": 55,
+    "Drama": 47,
+    "Mystery": 87,
+    "Neo-Noir": 91,
+    "Sci-Fi": 72,
+    "Science Fiction": 56,
+    "Thriller": 79
+  },
+  "joint_model_filter": {
+    "baseline_f1_min": 1.0,
+    "baseline_results": {
+      "llama3.1-8BI": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/results/llama3.1-8BI_baseline_s13.json",
+      "mistral": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/results/mistral_baseline_s13.json",
+      "qwen3_8B": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/results/qwen3_8B_baseline_s13.json"
+    },
+    "keep_per_cell": 40,
+    "models": [
+      "qwen3_8B",
+      "llama3.1-8BI",
+      "mistral"
+    ],
+    "qonly_em_must_be_zero": true,
+    "qonly_f1_max": null,
+    "question_only_results": {
+      "llama3.1-8BI": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/results/llama3.1-8BI_question_only_baseline_s13.json",
+      "mistral": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/results/mistral_question_only_baseline_s13.json",
+      "qwen3_8B": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/results/qwen3_8B_question_only_baseline_s13.json"
+    },
+    "source_eval": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/inputs/ooak_v2_s13_eval.jsonl",
+    "source_full": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/ooak_filtered_v2_joint_probe_p1_s1317/inputs/ooak_v2_s13_full.jsonl",
+    "survivor_counts_before_downselect": {
+      "<<": 62,
+      "<>": 84,
+      "><": 71,
+      ">>": 72
+    }
+  },
+  "k_mates": 1,
+  "mate_count_histogram": {
+    "0": 47,
+    "1": 45,
+    "2": 6
+  },
+  "num_rows": 341,
+  "per_cell_attempts": 50000,
+  "pool_candidates_by_cell": {
+    "<<": 15621,
+    "<>": 13019,
+    "><": 14878,
+    ">>": 12357
+  },
+  "pool_sizes": {
+    "<": 43,
+    ">": 39
+  },
+  "prompt_variant": "closed_world_pairwise",
+  "seed": 13,
+  "source_corpus": "<BOXOFFICE_BUNDLE_ROOT>/corpus/source_corpus_100_films.jsonl",
+  "source_tag": "regenerated_ooak_filtered_v2_joint_probe",
+  "status_counts": {
+    "<": 47,
+    ">": 51
+  },
+  "template_family": "film_attribute_one_of_a_kind_singleton",
+  "warm_fusion_docs": "<BOXOFFICE_BUNDLE_ROOT>/artifacts/rebuilt_warm_k5/fusion_docs_topk5.jsonl",
+  "warmup_rows": 181
+}

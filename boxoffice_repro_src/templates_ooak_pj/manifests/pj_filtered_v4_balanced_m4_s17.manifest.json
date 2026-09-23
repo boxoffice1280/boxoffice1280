@@ -1,0 +1,127 @@
+{
+  "aligned_cell": "><",
+  "balanced_variant_eval_unique_chunks": 91,
+  "balanced_variant_exact_direction_count_histogram": {
+    "10/2": 5,
+    "10/3": 1,
+    "11/2": 1,
+    "11/3": 1,
+    "12/2": 6,
+    "12/7": 1,
+    "13/2": 5,
+    "13/3": 1,
+    "14/2": 4,
+    "14/3": 1,
+    "15/2": 3,
+    "15/3": 1,
+    "16/2": 6,
+    "16/3": 1,
+    "16/5": 1,
+    "17/2": 1,
+    "18/2": 5,
+    "18/3": 2,
+    "19/3": 1,
+    "19/4": 1,
+    "19/5": 1,
+    "20/2": 1,
+    "21/2": 3,
+    "22/2": 3,
+    "24/2": 1,
+    "25/2": 1,
+    "26/2": 6,
+    "26/3": 2,
+    "27/2": 1,
+    "28/2": 1,
+    "28/3": 1,
+    "29/2": 3,
+    "29/3": 2,
+    "31/2": 1,
+    "32/3": 1,
+    "38/3": 1,
+    "46/3": 1,
+    "5/2": 2,
+    "6/2": 1,
+    "7/2": 2,
+    "8/2": 4,
+    "9/2": 3,
+    "9/4": 1
+  },
+  "balanced_variant_requirement": {
+    "<": 2,
+    ">": 2
+  },
+  "balanced_variant_warmup_rows_added": 140,
+  "balanced_variant_warmup_rows_original": 91,
+  "canonical_corpus": "<BOXOFFICE_BUNDLE_ROOT>/corpus/canonical_corpus_100_chunks.jsonl",
+  "cell_counts": {
+    "<<": 40,
+    "<>": 40,
+    "><": 40,
+    ">>": 40
+  },
+  "conditioning_semantics": "director_mate_presence",
+  "dataset": "pj_filtered_v4_balanced_m4",
+  "eval_per_cell": 40,
+  "eval_rows": 160,
+  "joint_model_filter": {
+    "baseline_f1_min": 1.0,
+    "baseline_results": {
+      "llama3.1-8BI": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/results/llama3.1-8BI_baseline_s17.json",
+      "mistral": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/results/mistral_baseline_s17.json",
+      "qwen3_8B": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/results/qwen3_8B_baseline_s17.json"
+    },
+    "keep_per_cell": 40,
+    "models": [
+      "qwen3_8B",
+      "llama3.1-8BI",
+      "mistral"
+    ],
+    "qonly_em_must_be_zero": true,
+    "qonly_f1_max": null,
+    "question_only_results": {
+      "llama3.1-8BI": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/results/llama3.1-8BI_question_only_baseline_s17.json",
+      "mistral": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/results/mistral_question_only_baseline_s17.json",
+      "qwen3_8B": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/results/qwen3_8B_question_only_baseline_s17.json"
+    },
+    "source_eval": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/inputs/pj_v2_s17_eval.jsonl",
+    "source_full": "<BOXOFFICE_BUNDLE_ROOT>/templates_ooak_pj/regenerated/pj_filtered_v2_joint_probe_s1317/inputs/pj_v2_s17_full.jsonl",
+    "survivor_counts_before_downselect": {
+      "<<": 65,
+      "<>": 50,
+      "><": 59,
+      ">>": 68
+    }
+  },
+  "k_mates": 1,
+  "matcher_mate_is_pivot_by_cell": {
+    "<<|False": 100,
+    "<>|False": 100,
+    "><|False": 50,
+    "><|True": 50,
+    ">>|False": 50,
+    ">>|True": 50
+  },
+  "num_rows": 391,
+  "per_cell_attempts": 50000,
+  "pool_candidates_by_cell": {
+    "<<": 50000,
+    "<>": 49998,
+    "><": 50000,
+    ">>": 49997
+  },
+  "pool_sizes": {
+    "<": 51,
+    ">": 40
+  },
+  "prompt_variant": "closed_world_pairwise",
+  "seed": 17,
+  "source_corpus": "<BOXOFFICE_BUNDLE_ROOT>/corpus/source_corpus_100_films.jsonl",
+  "source_tag": "pj_filtered_v2_reference",
+  "status_counts": {
+    "<": 58,
+    ">": 41
+  },
+  "template_family": "film_attribute_pivot_join_match",
+  "warm_fusion_docs": "<BOXOFFICE_BUNDLE_ROOT>/artifacts/rebuilt_warm_k5/fusion_docs_topk5.jsonl",
+  "warmup_rows": 231
+}

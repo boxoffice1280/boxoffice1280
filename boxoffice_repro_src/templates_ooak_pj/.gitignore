@@ -1,0 +1,5 @@
+# Large per-seed datasets are distributed via the dataset release, not git.
+seeds/
+regenerated/
+*.log
+__pycache__/

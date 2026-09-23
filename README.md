@@ -171,3 +171,9 @@ LongBench entrypoints are:
 - [Methods bundle](cache_methods_src/README.md)
 - [BoxOffice bundle](boxoffice_repro_src/README.md)
 - [LongBench bundle](longbench_repro_src/README.md)
+
+## Additional query templates
+
+Two further BoxOffice query templates (OOAK: genre uniqueness; PJ: pivot join)
+are documented in [README_TEMPLATES.md](README_TEMPLATES.md) and live under
+`boxoffice_repro_src/templates_ooak_pj/`.

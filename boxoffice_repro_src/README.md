@@ -366,3 +366,10 @@ outputs rather than reproductions of the verified release set.
 This bundle was assembled from the `generate_boxoffice` workflow and then
 refined through direct verification against the authoritative `s7`, `s11`,
 `s23`, `s47`, and `s73` seed outputs.
+
+## Additional query templates
+
+The OOAK (genre uniqueness) and PJ (pivot join) query templates, their
+regeneration pipeline, and the manifests of their released seeds (7, 11, 13, 17)
+live under [`templates_ooak_pj/`](templates_ooak_pj/README.md). They reuse this
+bundle's corpus, warm metadata, filter runner and runtime unchanged.
